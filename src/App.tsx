@@ -9,6 +9,7 @@ import Contacts from './pages/contacts';
 import Body from './atoms/layout/body';
 import Main from './atoms/layout/main';
 import Row from './atoms/layout/row';
+import Paralax from './atoms/paralax';
 
 const history = createMemoryHistory();
 
@@ -33,6 +34,7 @@ function App() {
           </Row>
         </Main>
       </Router>
+      <Paralax />
       <Footer />
     </Body>
   );
