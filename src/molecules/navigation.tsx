@@ -14,16 +14,21 @@ export default () => {
 }
 
 const NavMenu = styled.ul`
-    background: 1px solid grey; 
+    background-color: grey; 
     list-style: none; 
-    margin: 0; 
+    height: 3rem;
+    margin: 0;
     padding: 0;
+    vertical-align: center;
     display: flex;
     font-family: Roboto;
 `;
 
 const NavMenuItem = styled.li`
-    flex: 3; 
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     & > a {
         text-decoration: none;
     }

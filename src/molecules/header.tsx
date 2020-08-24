@@ -9,6 +9,5 @@ export default () => {
 }
 
 const Header = styled.div`
-    padding: 2rem;
     text-align: center;
 `;
