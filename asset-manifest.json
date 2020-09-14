@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/wedding/static/js/main.6a43d44d.chunk.js",
+    "main.js.map": "/wedding/static/js/main.6a43d44d.chunk.js.map",
+    "runtime-main.js": "/wedding/static/js/runtime-main.0bb40c67.js",
+    "runtime-main.js.map": "/wedding/static/js/runtime-main.0bb40c67.js.map",
+    "static/js/2.74544961.chunk.js": "/wedding/static/js/2.74544961.chunk.js",
+    "static/js/2.74544961.chunk.js.map": "/wedding/static/js/2.74544961.chunk.js.map",
+    "index.html": "/wedding/index.html",
+    "precache-manifest.323a8be22b3542c3c869a6e25d7dd2aa.js": "/wedding/precache-manifest.323a8be22b3542c3c869a6e25d7dd2aa.js",
+    "service-worker.js": "/wedding/service-worker.js",
+    "static/js/2.74544961.chunk.js.LICENSE.txt": "/wedding/static/js/2.74544961.chunk.js.LICENSE.txt",
+    "static/media/butterfly.svg": "/wedding/static/media/butterfly.0872760b.svg",
+    "static/media/flowers.svg": "/wedding/static/media/flowers.59ceab5a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bb40c67.js",
+    "static/js/2.74544961.chunk.js",
+    "static/js/main.6a43d44d.chunk.js"
+  ]
+}
