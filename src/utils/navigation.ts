@@ -6,14 +6,10 @@ export type TNavMenuItem = {
 export const navigation: TNavMenuItem[] = [
     {
         path: '/',
-        name: 'Home'
+        name: 'Dienas plāns'
     },
     {
-        path: '/directions',
-        name: 'Directions'
-    },
-    {
-        path: '/contacts',
-        name: 'Contacts'
+        path: '/info',
+        name: 'Informācija'
     }
 ];

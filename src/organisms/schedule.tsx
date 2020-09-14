@@ -2,20 +2,7 @@ import React, { useState } from 'react';
 import { EventSchedule, TEvent } from '../molecules/scheduleEvent';
 
 export default () => {
-
   const [schedule] = useState([
-    {
-      from: Date.parse('2020-09-19T10:30:00.000+03:00'),
-      to: Date.parse('2020-09-19T11:00:00.000+03:00'),
-      name: 'Ierašanās',
-      location: 'Īkšķele, sv. Meinarda Sala',
-    },
-    {
-      from: Date.parse('2020-09-19T10:30:00.000+03:00'),
-      to: Date.parse('2020-09-19T11:00:00.000+03:00'),
-      name: 'Brauciens uz salu ar plostu',
-      location: 'Īkšķele, sv. Meinarda Sala',
-    },
     {
       from: Date.parse('2020-09-19T10:30:00.000+03:00'),
       to: Date.parse('2020-09-19T11:00:00.000+03:00'),
@@ -107,6 +94,6 @@ export default () => {
 
   ]);
   return <>
-    {schedule.map((item: TEvent) => <EventSchedule item={item} /> )}
+    {schedule.map((item: TEvent) => <EventSchedule item={item} itemCount={schedule.length} /> )}
   </>
 }

@@ -10,4 +10,5 @@ export default () => {
 
 const Header = styled.div`
     text-align: center;
+    height: 3rem;
 `;

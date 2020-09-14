@@ -8,7 +8,7 @@ export default () => <>
 
 const LiepupeParalax =  styled.div`
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ const LiepupeParalax =  styled.div`
 
 const MeinardParalax =  styled.div`
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
