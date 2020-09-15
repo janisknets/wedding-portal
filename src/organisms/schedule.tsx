@@ -96,10 +96,22 @@ export default () => {
       to: Date.parse('2020-09-20T04:00:00.000+03:00'),
       name: 'Ballīte līdz rītam',
       location: 'Liepupe, Liepupes Muižā',
+    },
+    {
+      from: Date.parse('2020-09-20T11:00:00.000+03:00'),
+      to: Date.parse('2020-09-20T13:00:00.000+03:00'),
+      name: 'Brokastis',
+      location: 'Liepupe, Liepupes Muižā',
+    },
+    {
+      from: Date.parse('2020-09-20T13:00:00.000+03:00'),
+      to: Date.parse('2020-09-20T13:00:00.000+03:00'),
+      name: 'Viesi izrakstās no istabiņām un atvadas',
+      location: 'Liepupe, Liepupes Muižā',
     }
 
   ]);
   return <>
-    {schedule.map((item: TEvent) => <EventSchedule item={item} /> )}
+    {schedule.map((item: TEvent, idx: number) => <EventSchedule key={idx} item={item} /> )}
   </>
 }

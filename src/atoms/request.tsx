@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export default ({ text }: { text: string }) => {
-  return <TextBlock>{text.split('\n').map((chunk: string) => <p>{chunk}</p>)}</TextBlock>;
+  return <TextBlock>{text.split('\n').map((chunk: string, idx: number) => <p key={idx} >{chunk}</p>)}</TextBlock>;
 }
 
 const TextBlock = styled.div`

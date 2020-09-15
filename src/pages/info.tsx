@@ -9,17 +9,17 @@ import Contact from '../atoms/contact';
 const directions = [
   {
     text: "Sv. Meinarda Sala",
-    link: "https://www.waze.com/ul?to=place.ChIJT67NkKov6UYRiLrmU2VBsq0",
+    link: "https://www.waze.com/ul?ll=56.82161571%2C24.50180769&navigate=yes",
     icon: ""
   },
   {
     text: "Brandīns",
-    link: "https://www.waze.com/ul?to=place.ChIJyfk6t1Mu6UYR8rtSvTRmkFw",
+    link: "https://www.waze.com/ul?ll=56.8232479%2C24.49893236&navigate=yes",
     icon: ""
   },
   {
     text: "Liepupes Muiža",
-    link: "https://www.waze.com/ul?to=ll.57.46326927%2C24.47135925",
+    link: "https://www.waze.com/ul?ll=57.46341930%2C24.47095520&navigate=yes",
     icon: ""
   }
 ];
@@ -49,15 +49,15 @@ export default () => {
   return <>
     <InfoBlock>
       <Header>Jaunā pāra lūgumi</Header>
-      {requests.map(request => <Request {...request} /> )}
+      {requests.map((request, idx) => <Request key={idx} {...request} /> )}
     </InfoBlock>
     <InfoBlock>
       <Header>Kā nokļūt</Header>
-      {directions.map(direction => <Direction {...direction} /> )}
+      {directions.map((direction, idx) => <Direction key={idx} {...direction} /> )}
     </InfoBlock>
     <InfoBlock>
       <Header>Kontakti</Header>
-      {contacts.map(contact => <Contact {...contact} /> )}
+      {contacts.map((contact, idx) => <Contact key={idx} {...contact} /> )}
     </InfoBlock>
   </>
 }

@@ -27,16 +27,3 @@ const EventCard = styled.div`
   text-align: center;
   background-color: none;
 `;
-
-// const EventLeft = styled.div`
-//   display: flex;
-//   align-self: center;
-//   width: 20%;
-// `;
-
-// const EventRight = styled.div`
-//   display: flex;
-//   align-self: flex-end;
-//   flex-direction: column;
-//   width: 80%;
-// `;

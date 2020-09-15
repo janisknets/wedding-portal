@@ -5,8 +5,8 @@ import { navigation, TNavMenuItem } from '../utils/navigation';
 
 export default () => {
     return <NavMenu>
-        {navigation.map((item: TNavMenuItem) => 
-            <NavMenuItem>
+        {navigation.map((item: TNavMenuItem, idx: number) => 
+            <NavMenuItem key={idx} >
                 <Link to={item.path}>{item.name}</Link >
             </NavMenuItem>
         )}
