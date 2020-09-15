@@ -8,7 +8,7 @@ export default {
     background: "#202D37",
   },
   fonts: {
-    primary: "'Parisienne', cursive",
-    secondary: "'Josefin Sans', sans-serif",
+    primary: "'Lora', serif",
+    secondary: "'Alegreya', serif",
   }
 };

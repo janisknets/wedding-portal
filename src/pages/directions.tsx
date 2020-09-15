@@ -13,7 +13,7 @@ const directions = [
     icon: ""
   },
   {
-    text: "Brandīnds",
+    text: "Brandīns",
     link: "https://www.waze.com/ul?to=place.ChIJyfk6t1Mu6UYR8rtSvTRmkFw",
     icon: ""
   },
@@ -26,7 +26,7 @@ const directions = [
 
 const requests = [
   {
-    text: "Mīļā ģimene un draugi, Lūdzam būt ar mums klātesošiem un nefotografēt ceremonijas laikā, atstāsim šo profesionāļu rokās. Būsim iepriecināti, ja izmantosiet iespēju iemūžināt šo svētku dienu lūdzot foto mūsu fotogrāfam Billijam. Lūdzam nepublicēt savus foto ar jauno pāri sociālajos tīklos.",
+    text: "Mīļā ģimene un draugi,\nLūdzam būt ar mums klātesošiem un nefotografēt ceremonijas laikā, atstāsim šo profesionāļu rokās.\nBūsim iepriecināti, ja izmantosiet iespēju iemūžināt šo svētku dienu lūdzot foto mūsu fotogrāfam Billijam.\nLūdzam nepublicēt savus foto ar jauno pāri sociālajos tīklos.",
   }
 ]
 
@@ -66,4 +66,5 @@ const InfoBlock = styled.div`
   display: flex; 
   flex-direction: column;
   width: 100%;
+  flex-wrap: nowrap;
 `;

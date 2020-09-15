@@ -94,6 +94,6 @@ export default () => {
 
   ]);
   return <>
-    {schedule.map((item: TEvent) => <EventSchedule item={item} itemCount={schedule.length} /> )}
+    {schedule.map((item: TEvent) => <EventSchedule item={item} /> )}
   </>
 }
