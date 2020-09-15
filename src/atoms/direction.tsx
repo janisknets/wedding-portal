@@ -17,13 +17,13 @@ const DirectionBox = styled.div`
   margin: 0.3rem;
   text-align: left;
   font-family: ${props => props.theme.fonts.primary};
-  font-size: 2rem;
+  font-size: 1rem;
   color: ${props => props.theme.colors.primaryDark};
 `;
 
 const DirectonIcon = styled.span`
-    min-width: 2rem;
-    min-height: 2em;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
     display: inline-flex;
     margin-right: 1rem;
     font-size: 1rem;
@@ -35,7 +35,7 @@ const DirectonIcon = styled.span`
 
 const DirectionLink = styled.a`
   font-family: ${props => props.theme.fonts.primary};
-  font-size: 2rem;
+  font-size: 1rem;
   display: inline-flex;
   color: ${props => props.theme.colors.primaryLight};
   text-decoration: none;

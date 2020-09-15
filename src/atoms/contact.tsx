@@ -13,12 +13,12 @@ const Contact = styled.div`
 
 const Name = styled.a`
     color: ${props => props.theme.colors.primaryDark};
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: ${props => props.theme.fonts.primary};
     text-decoration: none;
 `;
 
 const Phone = styled.span`
     margin-left: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 `;

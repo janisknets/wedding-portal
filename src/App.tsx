@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from './utils/theme';
 import Header from './molecules/header';
 import Home from './pages/home';
-import Directions from './pages/directions';
+import Info from './pages/info';
 import Body from './atoms/layout/body';
 import Main from './atoms/layout/main';
 import Row from './atoms/layout/row';
@@ -21,7 +21,7 @@ function App() {
               <Row>
                 <Switch>
                   <Route path="/info">
-                    <Directions />
+                    <Info />
                   </Route>
                   <Route path="/">
                     <Home />

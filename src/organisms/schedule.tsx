@@ -10,6 +10,12 @@ export default () => {
       location: 'Īkšķele, sv. Meinarda Sala',
     },
     {
+      from: Date.parse('2020-09-19T11:00:00.000+03:00'),
+      to: Date.parse('2020-09-19T11:45:00.000+03:00'),
+      name: 'Laulību ceremonija',
+      location: 'Īkšķele, sv. Meinarda Sala',
+    },
+    {
       from: Date.parse('2020-09-19T11:45:00.000+03:00'),
       to: Date.parse('2020-09-19T12:30:00.000+03:00'),
       name: 'Foto ar jauno pāri uz salas',
