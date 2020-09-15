@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/wedding-portal/static/js/main.60480a8f.chunk.js",
-    "main.js.map": "/wedding-portal/static/js/main.60480a8f.chunk.js.map",
+    "main.js": "/wedding-portal/static/js/main.1aed259e.chunk.js",
+    "main.js.map": "/wedding-portal/static/js/main.1aed259e.chunk.js.map",
     "runtime-main.js": "/wedding-portal/static/js/runtime-main.ceb450cd.js",
     "runtime-main.js.map": "/wedding-portal/static/js/runtime-main.ceb450cd.js.map",
     "static/js/2.4e3e7653.chunk.js": "/wedding-portal/static/js/2.4e3e7653.chunk.js",
     "static/js/2.4e3e7653.chunk.js.map": "/wedding-portal/static/js/2.4e3e7653.chunk.js.map",
     "index.html": "/wedding-portal/index.html",
-    "precache-manifest.a58b2ae13dbdf8dfbcef3fc8dbc3869f.js": "/wedding-portal/precache-manifest.a58b2ae13dbdf8dfbcef3fc8dbc3869f.js",
+    "precache-manifest.49b44fbfdc058dc716b8c08de89081c8.js": "/wedding-portal/precache-manifest.49b44fbfdc058dc716b8c08de89081c8.js",
     "service-worker.js": "/wedding-portal/service-worker.js",
     "static/js/2.4e3e7653.chunk.js.LICENSE.txt": "/wedding-portal/static/js/2.4e3e7653.chunk.js.LICENSE.txt",
     "static/media/flowers.svg": "/wedding-portal/static/media/flowers.59ceab5a.svg"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.ceb450cd.js",
     "static/js/2.4e3e7653.chunk.js",
-    "static/js/main.60480a8f.chunk.js"
+    "static/js/main.1aed259e.chunk.js"
   ]
 }
