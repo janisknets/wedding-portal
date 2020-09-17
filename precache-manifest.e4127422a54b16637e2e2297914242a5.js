@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "314011dc53320c2e314610c9af25b48f",
+    "revision": "eed0f0b57b2ef838b45e6edb2d27b5a3",
     "url": "/wedding-portal/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wedding-portal/static/js/2.4e3e7653.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d4dee63609c538fae69",
-    "url": "/wedding-portal/static/js/main.489aa4f2.chunk.js"
+    "revision": "483b30b0be65de33e50a",
+    "url": "/wedding-portal/static/js/main.3a018606.chunk.js"
   },
   {
     "revision": "9a8356941c6be429a881",
